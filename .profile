@@ -70,5 +70,5 @@ export DEVDB_SID=DEVDB
 export MAVEN_OPTS="-Xmx4086m -XX:ReservedCodeCacheSize=256m"
 
 # PATH
-PATH=.:$HOME/bin:$HOME/software/bin:$CJ_SOFTWARE_HOME/bin:$JAVA_HOME/bin:$PATH:$RESIN_HOME/bin:$GRAILS_HOME/bin:$HOME/software/sbt/bin
+PATH=.:/usr/local/bin:$HOME/bin:$HOME/software/bin:$CJ_SOFTWARE_HOME/bin:$JAVA_HOME/bin:$PATH:$RESIN_HOME/bin:$GRAILS_HOME/bin:$HOME/software/sbt/bin
 

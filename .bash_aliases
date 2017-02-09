@@ -5,6 +5,8 @@ alias ls='ls -G'
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
+alias pg='ps aux | grep '
+alias hg='history | grep '
 
 #applications
 alias p4v='export TMP=$P4CLIENTPATH/tmp; p4v &'
