@@ -23,6 +23,9 @@ shopt -s histappend
 HISTSIZE=100000
 HISTFILESIZE=200000
 
+#You may disable this behavior and share a single history by setting SHELL_SESSION_HISTORY to 0.
+SHELL_SESSION_HISTORY=0
+
 # check the window size after each command and, if necessary,
 # update the values of LINES and COLUMNS.
 shopt -s checkwinsize

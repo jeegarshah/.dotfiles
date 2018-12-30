@@ -26,11 +26,11 @@ fi
 export PROJECTS=$HOME/projects
 
 #DEVDB
-export set BUILD_USER=spud 
+export set BUILD_USER=spud
 
 # Basic repository setup
-#export P4USER=$USER 
-#export P4CLIENT=$USER 
+#export P4USER=$USER
+#export P4CLIENT=$USER
 #export P4PORT=p4proxy-cj.wl.corpsys.vclk.net:5666
 #export P4CLIENTPATH=$PROJECTS/perforce
 #export TEMP=$P4CLIENTPATH/tmp
@@ -51,7 +51,7 @@ export speedyg_software=$cj_speedyg_home/software
 #export JAVA_HOME=$(/usr/libexec/java_home)
 export JAVA_ROOT=/Library/Java/JavaVirtualMachines/
 export JDK7=$JAVA_ROOT/jdk1.7.0_80.jdk/Contents/Home
-export JDK8=$JAVA_ROOT/jdk1.8.0_65.jdk/Contents/Home
+export JDK8=$JAVA_ROOT/jdk1.8.0_72.jdk/Contents/Home
 export JAVA_HOME=$JDK8
 
 export GRAILS_HOME=$CJ_SOFTWARE_HOME/grails/grails-$cj_grailsVersion
@@ -70,5 +70,4 @@ export DEVDB_SID=DEVDB
 export MAVEN_OPTS="-Xmx4086m -XX:ReservedCodeCacheSize=256m"
 
 # PATH
-PATH=.:/usr/local/bin:$HOME/bin:$HOME/software/bin:$CJ_SOFTWARE_HOME/bin:$JAVA_HOME/bin:$PATH:$RESIN_HOME/bin:$GRAILS_HOME/bin:$HOME/software/sbt/bin
-
+PATH=.:/usr/local/bin:$HOME/bin:$HOME/software/bin:$CJ_SOFTWARE_HOME/bin:$JAVA_HOME/bin:$PATH:$RESIN_HOME/bin:$GRAILS_HOME/bin:$HOME/software/sbt/bin:$HOME/.npm-packages/bin
