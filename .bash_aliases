@@ -21,7 +21,8 @@ alias mdb='~/software/mongo/bin/mongod --dbpath $PROJECTS/data/mongo/product-imp
 alias mci='mvn clean install -T 1C -Ddelta.skip=true -Dqunit.numThreads=8'
 alias mi='mvn install -T 1C -Ddelta.skip=true -Dqunit.numThreads=8'
 alias qb='mvn clean install -T 1C -Ddelta.skip=true -Dcleanup.skip=true -Dqunit.numThreads=8 -DskipTests -Dtablespaces.skip=true -Dgulp.task=min'
-alias qb2='mvn install -T 1C -Ddelta.skip=true -Dcleanup.skip=true -Dqunit.numThreads=8 -DskipTests -Dtablespaces.skip=true'
+alias qqb='mvn      install -T 1C -Ddelta.skip=true -Dcleanup.skip=true -Dqunit.numThreads=8 -DskipTests -Dtablespaces.skip=true -Dgulp.task=min'
+alias qb2='mvn      install -T 1C -Ddelta.skip=true -Dcleanup.skip=true -Dqunit.numThreads=8 -DskipTests -Dtablespaces.skip=true -Dgulp.task=min'
             
 #directory shortcuts
 alias main='cd $CJ_GIT_HOME/main'

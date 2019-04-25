@@ -67,7 +67,7 @@ export DEVDB_PORT=1521
 export DEVDB_SID=DEVDB
 
 # MAVEN
-export MAVEN_OPTS="-Xmx4086m -XX:ReservedCodeCacheSize=256m"
+export MAVEN_OPTS="-Xmx4086m -Xss2G -XX:ReservedCodeCacheSize=256m"
 
 # PATH
 PATH=.:/usr/local/bin:$HOME/bin:$HOME/software/bin:$CJ_SOFTWARE_HOME/bin:$JAVA_HOME/bin:$PATH:$RESIN_HOME/bin:$GRAILS_HOME/bin:$HOME/software/sbt/bin:$HOME/.npm-packages/bin
