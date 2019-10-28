@@ -70,3 +70,4 @@ export GREP_OPTIONS='--color=auto'
 export CLICOLOR=1;
 
 test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
+PATH=${PATH}:${HOME}/bin/scalikejdbc-cli
