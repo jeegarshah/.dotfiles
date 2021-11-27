@@ -51,7 +51,8 @@ export speedyg_software=$cj_speedyg_home/software
 #export JAVA_HOME=$(/usr/libexec/java_home)
 export JAVA_ROOT=/Library/Java/JavaVirtualMachines/
 export JDK7=$JAVA_ROOT/jdk1.7.0_80.jdk/Contents/Home
-export JDK8=$JAVA_ROOT/jdk1.8.0_72.jdk/Contents/Home
+export JDK8=$JAVA_ROOT/jdk1.8.0_231.jdk/Contents/Home
+export JDK11=$JAVA_ROOT/jdk-11.0.9.jdk/Contents/Home
 export JAVA_HOME=$JDK8
 
 export GRAILS_HOME=$CJ_SOFTWARE_HOME/grails/grails-$cj_grailsVersion
@@ -68,6 +69,11 @@ export DEVDB_SID=DEVDB
 
 # MAVEN
 export MAVEN_OPTS="-Xmx4086m -Xss512m -XX:ReservedCodeCacheSize=256m"
+
+#nvm
+export NVM_DIR="$HOME/.nvm"
+  [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
+  [ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
 
 # PATH
 PATH=.:/usr/local/bin:$HOME/bin:$HOME/software/bin:$CJ_SOFTWARE_HOME/bin:$JAVA_HOME/bin:$PATH:$RESIN_HOME/bin:$GRAILS_HOME/bin:$HOME/software/sbt/bin:$HOME/.npm-packages/bin
