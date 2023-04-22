@@ -66,6 +66,7 @@ export TNS_ADMIN=$HOME
 export DEVDB_HOST=devdb.db.cj.com
 export DEVDB_PORT=1521
 export DEVDB_SID=DEVDB
+export DEVDB_USER=spud  
 
 # MAVEN
 export MAVEN_OPTS="-Xmx4086m -Xss512m -XX:ReservedCodeCacheSize=256m"
